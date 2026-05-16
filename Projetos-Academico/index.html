@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="pt-br"class="scroll-smooth">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Curriculo | Miguel Moreira Neves</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="antialiased flex flex-col min-h-screen">
+        <!--Barra de Navegação fixa no topo-->
+        <nav class="fixed w-full z-50 top-0 transition-all duration-300 bg-white/80 backdrop-blur-md border-b border-gray-200 no-print">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex justify-between h-16 items-center">
+                    <div class="flex-shrink-0 flex items-center">
+                        <a href="#" class="font-bold text-2xl tracking-tighter text-blue-600">M<span class="text-gray-800">.</span>N</a>
+                    </div>
+                    <div class="hidden md:flex space-x-8">
+                        <a href="#sobre" class="text-gray-600 hover:text-blue-600 font-medium transition-colors">Sobre</a>
+                        <a href="#formacao" class="text-gray-600 hover:text-blue-600 font-medium transition-colors">Formação</a>
+                        <a href="#experiencia" class="text-gray-600 hover:text-blue-600 font-medium transition-colors">Experiência</a>
+                        <a href="#habilidades" class="text-gray-600 hover:text-blue-600 font-medium transition-colors">Habilidades</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        
+        <!---Inicio-->
+        <section class="pt-32 pb-20 sm:pt-40 sm:pb-24 px-4 bg-white relative overflow-hidden" id="inicio">
+            <!--Elementos Decorativos-->
+            <div class="absolute top-0 right-0 -mr-20 -mt-20 w-64 h-64 rounded-full bg-blue-50 opacity-50 blur-3xl no-print"></div>
+            <div class="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 rounded-full bg-cyan-50 opacity-50 blur-3xl no-print"></div>
+
+            <div class="max-w-4xl mx-auto text-center relative z-10">
+                <span class="inline-block py-1 px-3 rounded-full bg-blue-50 text-blue-600 text-sm font-semibold mb-6 border border-blue-100 uppercase tracking-wider">Perfil Profissional</span>
+                <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-gray-900 mb-6">Olá, eu sou <br class="hidden sm:block"/>
+                <span class="text-gradient">Miguel Moreira Neves</span></h1>
+                <p class="mt-4 max-w-2xl mx-auto text-xl text-gray-500 font-light">Graduando em Engenharia de Software focando na resolução de problemas complexos através da tecnologia e desenvolvimento de sistemas</p>
+
+                <div class="mt-10 flex flex-wrap justify-center gap-4">
+                    <a href="https://linkedin.com/in/miguel-neves-41a848316/" target="_blank" class="flex items-center gap-2 px-6 py-3 rounded-xl bg-white hover:bg-gray-50 text-gray-700 border border-gray-200 font-medium shadow-sm transition-all hover:-translate-y-1">
+                    <i class="fa-brands fa-linkedin text-blue-600 text-xl"></i>LinkedIn
+                    </a>
+
+                    <a href="https://github.com/SnowMiguel" target="_blank" class="flex items-center gap-2 px-6 py-3 rounded-xl bg-white hover:bg-gray-50 text-gray-700 border border-gray-200 font-medium shadow-sm transition-all hover:-translate-y-1">
+                        <i class="fa-brands fa-github text-gray-900 text-xl"></i>GitHub
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--Sobre mim-->
+        <section class="py-20 bg-gray-50" id="sobre">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center gap-4 mb-8">
+                <div class="w-12 h-12 rounded-xl bg-blue-100 flex items-center justify-center text-blue-600 text-xl">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <h2 class="text-3xl font-bold text-gray-900">Sobre Mim</h2>
+            </div>
+            
+            <div class="bg-white rounded-2xl p-8 shadow-sm border border-gray-100 text-lg text-gray-600 leading-relaxed">
+                <p>
+                    Com uma base sólida em Tecnologia da Informação construída através de formação técnica e acadêmica, sou um entusiasta da <strong class="text-gray-900 font-semibold">Engenharia de Software</strong>. Tenho experiência prática comprovada em suporte técnico, manutenção de hardware e atendimento direto ao usuário final em ambientes corporativos e institucionais, como a Empresa Brasil de Comunicação (EBC).
+                </p>
+                <p class="mt-4">
+                    Sou fluente em inglês e trago conhecimentos aplicados em lógica de programação (Java) e desenvolvimento web. Meu objetivo é evoluir continuamente na área de desenvolvimento de sistemas, aplicando princípios de engenharia para criar soluções eficientes, escaláveis e que agreguem valor real.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formação Acadêmica -->
+    <section class="py-20 bg-white" id="formacao">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center gap-4 mb-10">
+                <div class="w-12 h-12 rounded-xl bg-indigo-100 flex items-center justify-center text-indigo-600 text-xl">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+                <h2 class="text-3xl font-bold text-gray-900">Formação Acadêmica</h2>
+            </div>
+
+            <div class="space-y-6">
+                <!-- Curso 1 -->
+                <div class="group border border-gray-100 hover:border-indigo-200 rounded-2xl p-6 transition-all hover:shadow-md bg-white">
+                    <div class="flex flex-col sm:flex-row justify-between sm:items-center gap-4 mb-2">
+                        <h3 class="text-xl font-bold text-gray-900">Engenharia de Software</h3>
+                        <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-semibold bg-indigo-50 text-indigo-700 border border-indigo-100 whitespace-nowrap">
+                            <span class="w-2 h-2 rounded-full bg-indigo-500 mr-2"></span> Em andamento
+                        </span>
+                    </div>
+                    <p class="text-indigo-600 font-medium mb-3">Centro Universitário de Brasília (CEUB)</p>
+                    <p class="text-gray-500 text-sm">Foco em metodologias ágeis, ciclo de vida de software, arquitetura de sistemas e programação orientada a objetos.</p>
+                </div>
+
+                <!-- Curso 2 -->
+                <div class="group border border-gray-100 hover:border-indigo-200 rounded-2xl p-6 transition-all hover:shadow-md bg-white">
+                    <div class="flex flex-col sm:flex-row justify-between sm:items-center gap-4 mb-2">
+                        <h3 class="text-xl font-bold text-gray-900">Técnico em Informática</h3>
+                        <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-semibold bg-gray-100 text-gray-700 border border-gray-200 whitespace-nowrap">
+                            Conclusão em Jun/2025
+                        </span>
+                    </div>
+                    <p class="text-gray-700 font-medium mb-3">Escola Técnica de Brasília (ETB)</p>
+                </div>
+
+                <!-- Curso 3 -->
+                <div class="group border border-gray-100 hover:border-indigo-200 rounded-2xl p-6 transition-all hover:shadow-md bg-white">
+                    <div class="flex flex-col sm:flex-row justify-between sm:items-center gap-4 mb-2">
+                        <h3 class="text-xl font-bold text-gray-900">Ensino Médio Completo</h3>
+                        <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-semibold bg-gray-100 text-gray-700 border border-gray-200 whitespace-nowrap">
+                            Concluído em Dez/2021
+                        </span>
+                    </div>
+                    <p class="text-gray-700 font-medium">Centro de Ensino Médio Setor Leste</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiência Profissional -->
+    <section class="py-20 bg-gray-50" id="experiencia">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center gap-4 mb-10">
+                <div class="w-12 h-12 rounded-xl bg-teal-100 flex items-center justify-center text-teal-600 text-xl">
+                    <i class="fa-solid fa-briefcase"></i>
+                </div>
+                <h2 class="text-3xl font-bold text-gray-900">Experiência Profissional</h2>
+            </div>
+
+            <div class="relative border-l-2 border-teal-200 ml-3 sm:ml-6 space-y-10 pb-4">
+                
+                <!-- Exp 1 -->
+                <div class="relative pl-8 sm:pl-10">
+                    <!-- Bolinha da Timeline -->
+                    <div class="absolute -left-2.5 top-1.5 w-5 h-5 rounded-full bg-white border-4 border-teal-500 shadow"></div>
+                    
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+                        <div class="flex flex-col sm:flex-row justify-between sm:items-start gap-2 mb-3">
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-900">Estagiário de Suporte Técnico em TI</h3>
+                                <h4 class="text-teal-600 font-semibold text-lg mt-1">Empresa Brasil de Comunicação (EBC)</h4>
+                            </div>
+                            <span class="text-sm font-semibold text-gray-500 bg-gray-100 px-3 py-1 rounded-lg whitespace-nowrap">Jul/2024 – Jan/2026</span>
+                        </div>
+                        <ul class="space-y-2 mt-4 text-gray-600">
+                            <li class="flex items-start gap-2"><i class="fa-solid fa-check text-teal-500 mt-1 text-sm"></i> Manutenção corretiva e preventiva de hardware (conserto e substituição de componentes).</li>
+                            <li class="flex items-start gap-2"><i class="fa-solid fa-check text-teal-500 mt-1 text-sm"></i> Suporte direto ao usuário final em problemas de software e sistemas operacionais.</li>
+                            <li class="flex items-start gap-2"><i class="fa-solid fa-check text-teal-500 mt-1 text-sm"></i> Formatação de máquinas e instalação/configuração de softwares corporativos.</li>
+                            <li class="flex items-start gap-2"><i class="fa-solid fa-check text-teal-500 mt-1 text-sm"></i> Diagnóstico de falhas garantindo a continuidade operacional da emissora.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Exp 2 -->
+                <div class="relative pl-8 sm:pl-10">
+                    <div class="absolute -left-2.5 top-1.5 w-5 h-5 rounded-full bg-white border-4 border-gray-300 shadow"></div>
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+                        <div class="flex flex-col sm:flex-row justify-between sm:items-start gap-2 mb-3">
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-900">Estagiário de Suporte Técnico em TI</h3>
+                                <h4 class="text-gray-700 font-semibold text-lg mt-1">Escola Técnica de Brasília (ETB)</h4>
+                            </div>
+                            <span class="text-sm font-semibold text-gray-500 bg-gray-100 px-3 py-1 rounded-lg whitespace-nowrap">Out/2025 – Fev/2026</span>
+                        </div>
+                        <ul class="space-y-2 mt-4 text-gray-600">
+                            <li class="flex items-start gap-2"><i class="fa-solid fa-check text-gray-400 mt-1 text-sm"></i> Manutenção da infraestrutura tecnológica do ambiente escolar.</li>
+                            <li class="flex items-start gap-2"><i class="fa-solid fa-check text-gray-400 mt-1 text-sm"></i> Reparos de hardware e configuração de ambientes operacionais.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Exp 3 -->
+                <div class="relative pl-8 sm:pl-10">
+                    <div class="absolute -left-2.5 top-1.5 w-5 h-5 rounded-full bg-white border-4 border-gray-300 shadow"></div>
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+                        <div class="flex flex-col sm:flex-row justify-between sm:items-start gap-2 mb-3">
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-900">Estagiário de Projetos de TI</h3>
+                                <h4 class="text-gray-700 font-semibold text-lg mt-1">Universidade de Brasília (UnB)</h4>
+                            </div>
+                            <span class="text-sm font-semibold text-gray-500 bg-gray-100 px-3 py-1 rounded-lg whitespace-nowrap">Abr/2019 – Nov/2019</span>
+                        </div>
+                        <ul class="space-y-2 mt-4 text-gray-600">
+                            <li class="flex items-start gap-2"><i class="fa-solid fa-check text-gray-400 mt-1 text-sm"></i> Apoio técnico em redes de acesso à informação e gestão de dados acadêmicos.</li>
+                            <li class="flex items-start gap-2"><i class="fa-solid fa-check text-gray-400 mt-1 text-sm"></i> Otimização de processos de transdisciplinaridade em ambientes de pesquisa.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades e Idiomas -->
+    <section class="py-20 bg-white" id="habilidades">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                
+                <!-- Habilidades Técnicas -->
+                <div>
+                    <div class="flex items-center gap-3 mb-6">
+                        <i class="fa-solid fa-code text-2xl text-blue-600"></i>
+                        <h2 class="text-2xl font-bold text-gray-900">Habilidades Técnicas</h2>
+                    </div>
+                    
+                    <div class="flex flex-wrap gap-3">
+                        <span class="px-4 py-2 bg-white border-2 border-orange-100 text-orange-700 rounded-xl font-medium shadow-sm flex items-center gap-2 hover:border-orange-500 hover:-translate-y-1 transition-all cursor-default">
+                            <i class="fa-brands fa-java text-lg"></i> Java
+                        </span>
+                        <span class="px-4 py-2 bg-white border-2 border-blue-100 text-blue-700 rounded-xl font-medium shadow-sm flex items-center gap-2 hover:border-blue-500 hover:-translate-y-1 transition-all cursor-default">
+                            <i class="fa-solid fa-headset"></i> Suporte & Help Desk
+                        </span>
+                        <span class="px-4 py-2 bg-white border-2 border-gray-200 text-gray-700 rounded-xl font-medium shadow-sm flex items-center gap-2 hover:border-gray-500 hover:-translate-y-1 transition-all cursor-default">
+                            <i class="fa-solid fa-screwdriver-wrench"></i> Hardware
+                        </span>
+                        <span class="px-4 py-2 bg-white border-2 border-indigo-100 text-indigo-700 rounded-xl font-medium shadow-sm flex items-center gap-2 hover:border-indigo-500 hover:-translate-y-1 transition-all cursor-default">
+                            <i class="fa-solid fa-laptop-code"></i> Eng. de Software
+                        </span>
+                    </div>
+
+                    <!-- Comportamentais -->
+                    <h3 class="text-lg font-bold text-gray-800 mt-8 mb-4">Competências Pessoais</h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-center gap-3 text-gray-600 bg-gray-50 p-3 rounded-lg border border-gray-100">
+                            <i class="fa-solid fa-bolt text-yellow-500"></i> Resolução proativa de problemas
+                        </li>
+                        <li class="flex items-center gap-3 text-gray-600 bg-gray-50 p-3 rounded-lg border border-gray-100">
+                            <i class="fa-regular fa-face-smile text-green-500"></i> Suporte humanizado e empatia
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Idiomas -->
+                <div>
+                    <div class="flex items-center gap-3 mb-6">
+                        <i class="fa-solid fa-earth-americas text-2xl text-blue-600"></i>
+                        <h2 class="text-2xl font-bold text-gray-900">Idiomas</h2>
+                    </div>
+
+                    <!--Minha Língua materna-->
+                    <div class="bg-white p-5 rounded-xl border border-gray-100 shadow-sm">
+                            <div class="flex justify-between items-end mb-2">
+                                <span class="font-bold text-gray-800 flex items-center gap-2"><img src="https://flagcdn.com/w20/br.png" alt="Brazil">Português</span>
+                                <span class="text-sm font-semibold text-blue-600">Nativo</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-gray-400 h-2 rounded-full" style="width: 100%"></div>
+                            </div>
+                        </div>
+
+                    <div class="space-y-4">
+                        <!-- Inglês -->
+                        <div class="bg-white p-5 rounded-xl border border-gray-100 shadow-sm">
+                            <div class="flex justify-between items-end mb-2">
+                                <span class="font-bold text-gray-800 flex items-center gap-2"><img src="https://flagcdn.com/w20/us.png" alt="USA"> Inglês</span>
+                                <span class="text-sm font-semibold text-blue-600">Fluente</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-blue-600 h-2 rounded-full" style="width: 95%"></div>
+                            </div>
+                        </div>
+
+                        <!-- Espanhol -->
+                        <div class="bg-white p-5 rounded-xl border border-gray-100 shadow-sm">
+                            <div class="flex justify-between items-end mb-2">
+                                <span class="font-bold text-gray-800 flex items-center gap-2"><img src="https://flagcdn.com/w20/es.png" alt="Spain"> Espanhol</span>
+                                <span class="text-sm font-semibold text-gray-600">Intermediário</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-blue-600 h-2 rounded-full" style="width: 50%"></div>
+                            </div>
+                        </div>
+
+                        <!-- Francês -->
+                        <div class="bg-white p-5 rounded-xl border border-gray-100 shadow-sm">
+                            <div class="flex justify-between items-end mb-2">
+                                <span class="font-bold text-gray-800 flex items-center gap-2"><img src="https://flagcdn.com/w20/fr.png" alt="France"> Francês</span>
+                                <span class="text-sm font-semibold text-gray-600">Intermediário</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-blue-600 h-2 rounded-full" style="width: 40%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12 mt-auto text-center border-t border-gray-800 no-print">
+        <div class="max-w-4xl mx-auto px-4">
+            <h2 class="text-2xl font-bold mb-6">Miguel Moreira Neves</h2>
+            <div class="flex justify-center gap-6 mb-8">
+                <a href="https://linkedin.com/in/miguel-neves-41a848316/" target="_blank" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 hover:scale-110 transition-all">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/SnowMiguel" target="_blank" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-gray-700 hover:scale-110 transition-all">
+                    <i class="fa-brands fa-github"></i>
+            </div>
+            <p class="text-gray-500 text-sm">
+                &copy; 2026 Miguel Moreira Neves. Desenvolvido com foco em UX/UI.
+            </p>
+        </div>
+    </footer>
+    </body>
+</html>

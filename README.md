@@ -4,7 +4,7 @@ Este repositório de portfólio foi criado para o desenvolvimento e demonstraç�
 
 ## Links do Projeto
 *   **Portfólio Online (GitHub Pages):** [https://snowmiguel.github.io/Bootcamp-CEUB/]
-*   **Apresentação do Repositório (YouTube):** []
+*   **Apresentação do Repositório (YouTube):** [https://youtu.be/pKXuHyBzFkk]
 *   **Perfil Profissional (LinkedIn):** [www.linkedin.com/in/miguel-neves-41a848316]
 
 ## Estrutura do Repositório
